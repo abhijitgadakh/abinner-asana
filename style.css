@@ -89,7 +89,7 @@ h2 {
   column-gap: 80px;
 }
 
-.btn:link, btn:visited {
+.btn:link, .btn:visited {
   background-color: #087f5b;
   color: #fff;
   text-decoration: none;
@@ -101,6 +101,7 @@ h2 {
 
 .btn:hover,.btn:active{
   background-color: #099268;
+  color: #fff;
 }
 
 
@@ -169,6 +170,7 @@ img {
   color: #fff;
   padding: 24px;
   border-radius: 12px;
+  margin-bottom: 20px;
 }
 
 .testimonial-box {
@@ -267,3 +269,59 @@ footer {
   color: #495057;
 }
 
+/* PAGINATION */
+.pagination{
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn-p {
+  border: 1px solid #087f5b;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-p:hover{
+  background-color: #087f5b;
+}
+
+.btn-p:hover .btn-p-icon{
+  stroke: #fff;
+}
+
+.btn-p-icon {
+  height: 24px;
+  width: 24px;
+  stroke: #087f5b;
+}
+.page-link:link,
+.page-link:visited {
+  font-size: 18px;
+  color: #343a40;
+  text-decoration: none;
+  /* background-color: #343a40; */
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-link:hover,
+.page-link:active, .page-link.page-link--current {
+  background-color: #087f5b;
+  color: #fff;
+}
+
+.dots {
+  color: #868e96;
+}
